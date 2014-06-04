@@ -1,35 +1,46 @@
 {
-  "name": "OpenShift-Nodejs-Cartridge",
-  "version": "1.1.0",
-  "description": "Node.js Cartridge for OpenShift",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ryanj@redhat.com",
-    "url":  "http://openshift.redhat.com/"
-  },
-  "homepage": "http://openshift.redhat.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://gitub.com/openshift-quickstart/openshift-meteorjs-quickstart.git"
-  },
-  "engines": {
-    "node": ">= 0.10.9",
-    "npm": ">= 1.0.0"
-  },
-  "dependencies": {
-    "fibers": "~1.0.0"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-  "private": true,
-  "scripts": {
-    "start": "node meteorshim.js"
-  },
-  "main": "meteorshim.js"
+    "name": "OpenShift-Nodejs-Cartridge",
+    "version": "1.1.0",
+    "description": "Node.js Cartridge for OpenShift",
+    "keywords": [
+        "OpenShift",
+        "Node.js",
+        "application",
+        "openshift"
+    ],
+    "author": {
+        "name": "OpenShift",
+        "email": "ryanj@redhat.com",
+        "url": "http://openshift.redhat.com/"
+    },
+    "homepage": "http://openshift.redhat.com/",
+    "repository": {
+        "type": "git",
+        "url": "https://gitub.com/openshift-quickstart/openshift-meteorjs-quickstart.git"
+    },
+    "engines": {
+        "node": ">= 0.10.9",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "fibers": "~1.0.0",
+        "underscore": "1.6.0",
+        "source-map-support": "0.2.6",
+        "semver": "2.3.0",
+        "uglify-js": "2.4.13",
+        "css-parse": "1.7.0",
+        "css-stringify": "1.4.1",
+        "useragent": "2.0.8",
+        "send": "0.4.1",
+        "sockjs": "0.3.9",
+        "mailcomposer": "0.2.11",
+        "request": "2.36.0"
+    },
+    "devDependencies": {},
+    "bundleDependencies": [],
+    "private": true,
+    "scripts": {
+        "start": "node meteorshim.js"
+    },
+    "main": "meteorshim.js"
 }
