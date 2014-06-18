@@ -7,7 +7,7 @@ process.env.MONGO_URL = (process.env.OPENSHIFT_MONGODB_DB_URL + process.env.OPEN
 process.env.PORT = process.env.OPENSHIFT_NODEJS_PORT || 8000;
 process.env.BIND_IP = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 process.env.METEOR_SETTINGS = fs.readFileSync('production.json', 'utf8');
-//process.env.DDP_DEFAULT_CONNECTION_URL="ddp+sockjs://<appname>-taskinout.rhcloud.com:8443/sockjs";
+process.env.DDP_DEFAULT_CONNECTION_URL="ddp+sockjs://" + process.env.OPENSHIFT_GEAR_DNS + ":8443/sockjs";
 
 // Show connection details on startup
 console.log("MONGO_URL IS: " + process.env.MONGO_URL);
