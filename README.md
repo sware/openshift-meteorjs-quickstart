@@ -1,4 +1,8 @@
 #Meteor.js on OpenShift
+
+#***Deploy with node-0.6 cartridge
+Better success using the node-0.6 cartridge vs the 0.10 one.
+
 Deploy [meteor.js](http://meteor.com/) application bundles on [OpenShift](http://openshift.com/)
 
 <a href='https://openshift.redhat.com/community/blogs/cloudy-with-a-chance-of-meteorjs'><img src='https://openshift.redhat.com/community/sites/default/files/meteorshift_1.png'/></a>

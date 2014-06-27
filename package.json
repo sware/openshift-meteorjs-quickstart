@@ -1,7 +1,7 @@
 {
-    "name": "OpenShift-Nodejs-Cartridge",
-    "version": "1.1.0",
-    "description": "Node.js Cartridge for OpenShift",
+    "name": "OpenShift-Meteor-App",
+    "version": "1.0.0",
+    "description": "OpenShift Meteor Application",
     "keywords": [
         "OpenShift",
         "Node.js",
@@ -11,26 +11,26 @@
     "author": {
         "name": "OpenShift",
         "email": "ryanj@redhat.com",
-        "url": "http://openshift.redhat.com/"
+        "url": "http://www.openshift.com/"
     },
-    "homepage": "http://openshift.redhat.com/",
+    "homepage": "http://www.openshift.com/",
     "repository": {
         "type": "git",
-        "url": "https://gitub.com/openshift-quickstart/openshift-meteorjs-quickstart.git"
+        "url": "https://gitub.com/sware/openshift-meteorjs-quickstart.git"
     },
+
     "engines": {
-        "node": ">= 0.10.9",
+        "node": ">= 0.10.29",
         "npm": ">= 1.0.0"
     },
+
     "dependencies": {
         "fibers": "~1.0.0",
         "bson": "0.2.7"
     },
     "devDependencies": {},
     "bundleDependencies": [],
+
     "private": true,
-    "scripts": {
-        "start": "node meteorshim.js"
-    },
     "main": "meteorshim.js"
 }
