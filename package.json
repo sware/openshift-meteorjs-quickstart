@@ -26,7 +26,8 @@
 
     "dependencies": {
         "fibers": "~1.0.0",
-        "bson": "0.2.7"
+        "bson": "0.2.15",
+        "websocket-driver": "0.3.5"
     },
     "devDependencies": {},
     "bundleDependencies": [],
