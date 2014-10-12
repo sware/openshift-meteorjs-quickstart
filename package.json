@@ -24,7 +24,9 @@
         "npm": ">= 1.0.0"
     },
 
-    "dependencies": {},
+    "dependencies": {
+        "websocket-driver": "0.3.6"
+    },
     "devDependencies": {},
     "bundleDependencies": [],
 
